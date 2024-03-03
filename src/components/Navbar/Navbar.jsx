@@ -22,16 +22,16 @@ const Navbar = () => {
 
           <ul>
             <li>
-              <a className='menu-item'>Home</a>
+              <a className='menu-item' href='/'>Home</a>
             </li>
             <li>
-              <a className='menu-item'>Skills</a>
+              <a className='menu-item' href='#Skills'>Skills</a>
             </li>
             <li>
-              <a className='menu-item'>Projects</a>
+              <a className='menu-item' href='#Projects'>Projects</a>
             </li>
             <li>
-              <a className='menu-item'>Contact Me</a>
+              <a className='menu-item' href='#Contact'>Contact Me</a>
             </li>
 
             <button className='contact-btn' onClick={() => { }}>
