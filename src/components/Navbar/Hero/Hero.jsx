@@ -4,15 +4,24 @@ const Hero = () => {
     return (
         <section className='hero-container'>
             <div className='hero-content'>
-                <h2>Building Digital Experience That Inspire </h2>
-                <p>Passionate web developer | Transforming Ideas into Seamless and Effective Digital Experiences</p>
+                <h2>Hi, My Self <span>Gyan </span> </h2>
+                <ul>
+                    <li> CS Undergrad at IIT Patna.</li>
+                    <li>Passionate web developer.</li>
+                    <li>Interested in ReactJS, JavaScript, NodeJS, HTML, CSS, Python, Cybersecurity,
+                        <br></br>Machine Learning and MUCH MORE.</li>
+                    <li>Enthusiastic learner.</li>
+                    <li>Interested in learning new technologies.</li>
+                    <li>Exploring.....</li>
+
+                </ul>
 
             </div>
 
             <div className='hero-img'>
                 <div>
                     <div className='tech-icon'>
-                        <img src='./assets/images/hero.jpg' alt='hero' />
+                        <img src='./assets/images/Snapchat-314782128.jpg' alt='hero' />
                     </div>
                     <img src='./assets/images/icons8-react-native-64.png' alt='react' />
                 </div>

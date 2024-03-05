@@ -6,11 +6,15 @@ import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
-
+import MobileNav from "./components/Navbar/MobileNav/MobileNav";
+import { Routes } from "react-router-dom";
+import { Route } from "react-router-dom";
 const App = () => {
   return (
     <>
       <Navbar />
+      <MobileNav />
+
       <div className="container">
         <Hero />
         <Skills />

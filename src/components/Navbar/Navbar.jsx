@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 import "material-symbols"
 import MobileNav from './MobileNav/MobileNav';
@@ -22,16 +23,16 @@ const Navbar = () => {
 
           <ul>
             <li>
-              <a className='menu-item' href='/'>Home</a>
+              <Link className='menu-item' to='/'>Home</Link>
             </li>
             <li>
-              <a className='menu-item' href='#Skills'>Skills</a>
+              <Link className='menu-item' to='/Skills'>Skills</Link>
             </li>
             <li>
-              <a className='menu-item' href='#Projects'>Projects</a>
+              <Link className='menu-item' to='/Projects'>Projects</Link>
             </li>
             <li>
-              <a className='menu-item' href='#Contact'>Contact Me</a>
+              <Link className='menu-item' to='/Contact'>Contact</Link>
             </li>
 
             <button className='contact-btn' onClick={() => { }}>

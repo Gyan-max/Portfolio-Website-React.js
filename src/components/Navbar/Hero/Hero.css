@@ -37,6 +37,13 @@
 	margin-bottom: 1rem;
 }
 
+.hero-content h2 span:hover {
+	color: #ff5f02;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	text-shadow: #ff4102 0px 0px 100px;
+}
+
 .hero-content p {
 	width: 80%;
 	font-size: 1rem;
